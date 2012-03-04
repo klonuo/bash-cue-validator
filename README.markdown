@@ -8,14 +8,14 @@ This will output possible problems when called from terminal:
 $ bash-cue-validator-test.sh my-cue-sheet.cue
 ```
 
-- *bash-cue-validator-thumb.sh*
+- *bash-cue-validator-thumbs.sh*
 
 This is intended to be used as Nautilus thumbnail handler.
 
 Here is how it can be set from terminal (change ** path-to ** accordingly):
 
 ```
-$ gconftool-2 -s "/desktop/gnome/thumbnailers/application@x-cue/command" -t string "/ ** path-to ** /bash-cue-validator-thumb.sh %i %o %s"
+$ gconftool-2 -s "/desktop/gnome/thumbnailers/application@x-cue/command" -t string "/ ** path-to ** /bash-cue-validator-thumbs.sh %i %o %s"
 $ gconftool-2 -s "/desktop/gnome/thumbnailers/application@x-cue/enable" -t boolean 'true'
 ```
 
