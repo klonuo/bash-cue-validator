@@ -37,4 +37,4 @@ After correcting referenced filepath, warning is shown about non-compliant cue s
 
 Now, this is valid cue sheet (according the script ;) )
 
-![screen-shot](http://i.imgur.com/3amAt.png "Correct cue sheet")
+![screen-shot](http://i.imgur.com/uHwkd.png "Correct cue sheet")
