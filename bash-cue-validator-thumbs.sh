@@ -1,7 +1,5 @@
 #!/bin/bash
 
-com=" CATALOG CDTEXTFILE FILE FLAGS INDEX ISRC PERFORMER POSTGAP PREGAP REM SONGWRITER TITLE TRACK "
-
 #~      Warnings:
 #~ BOM8:   UTF-8 BOM detected
 #~ BO16:   UTF-16 BOM detected
