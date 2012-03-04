@@ -1,14 +1,14 @@
 Two bash scripts are present:
 
-- *bash-cue-validator-test.sh*
+- **bash-cue-validator-test.sh**
 
 This will output possible problems when called from terminal:
 
 ```
-$ bash-cue-validator-test.sh my-cue-sheet.cue
+$ ./bash-cue-validator-test.sh my-cue-sheet.cue
 ```
 
-- *bash-cue-validator-thumbs.sh*
+- **bash-cue-validator-thumbs.sh**
 
 This is intended to be used as Nautilus thumbnail handler.
 
@@ -23,7 +23,7 @@ After-which it should show annotated thumbs for cue sheets (don't forget `chmod 
 
 Sample images are provided, which are taken from Faenza icon set. I couldn't find a way to use stock icons reliably from bash, so this provided images are needed in script folder. Can be easily replaced with different images under same name.
 
-**Example:**
+###Example:
 
 This cue sheet has invalid referenced file inside (IREF annotated):
 
