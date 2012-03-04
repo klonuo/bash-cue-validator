@@ -19,7 +19,7 @@ $ gconftool-2 -s "/desktop/gnome/thumbnailers/application@x-cue/command" -t stri
 $ gconftool-2 -s "/desktop/gnome/thumbnailers/application@x-cue/enable" -t boolean 'true'
 ```
 
-After-which it should show annotated thumbs for cue sheets.
+After-which it should show annotated thumbs for cue sheets (don't forget `chmod +x`)
 
 Sample images are provided, which are taken from Faenza icon set. I couldn't find a way to use stock icons reliably from bash, so this provided images are needed in script folder. Can be easily replaced with different images under same name.
 
