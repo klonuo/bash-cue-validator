@@ -1,18 +1,18 @@
 Two bash scripts are present:
 
-- *bash-cue-validator-test*
+- *bash-cue-validator-test.sh*
 
 This will output possible problems when called from terminal:
 
 ```
-$ bash-cue-validator-test my-cue-sheet.cue
+$ bash-cue-validator-test.sh my-cue-sheet.cue
 ```
 
-- *bash-cue-validator-thumb*
+- *bash-cue-validator-thumb.sh*
 
 This is intended to be used as Nautilus thumbnail handler.
 
-Here is how it can be set from terminal (taking care of ** path-to **):
+Here is how it can be set from terminal (change ** path-to ** accordingly):
 
 ```
 $ gconftool-2 -s "/desktop/gnome/thumbnailers/application@x-cue/command" -t string "/ ** path-to ** /bash-cue-validator-thumb.sh %i %o %s"
@@ -21,7 +21,7 @@ $ gconftool-2 -s "/desktop/gnome/thumbnailers/application@x-cue/enable" -t boole
 
 After-which it should show annotated thumbs for cue sheets.
 
-Sample images are provided, which are taken from Faenza icon set. I couldn't find a way to use stock icons reliably from bash, so they are needed in script folder. Can be easily replaced with different images under same name.
+Sample images are provided, which are taken from Faenza icon set. I couldn't find a way to use stock icons reliably from bash, so this provided images are needed in script folder. Can be easily replaced with different images under same name.
 
 **Example:**
 
@@ -35,6 +35,6 @@ After correcting referenced filepath, warning is shown about non-compliant cue s
 ![screen-shot](http://i.imgur.com/d9df7.png "Cue sheet with warning")
 
 
-Now, this is valid cue sheet (according to the script ;) )
+Now, this is valid cue sheet (according the script ;) )
 
 ![screen-shot](http://i.imgur.com/3amAt.png "Correct cue sheet")
