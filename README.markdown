@@ -35,6 +35,6 @@ After correcting referenced filepath, warning is shown about non-compliant cue s
 ![screen-shot](http://i.imgur.com/d9df7.png "Cue sheet with warning")
 
 
-Now, this is valid cue sheet (according the script ;) )
+Now, this is valid cue sheet ( according the script ;) )
 
 ![screen-shot](http://i.imgur.com/uHwkd.png "Correct cue sheet")
