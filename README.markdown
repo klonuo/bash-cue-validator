@@ -21,7 +21,6 @@ $ gconftool-2 -s "/desktop/gnome/thumbnailers/application@x-cue/enable" -t boole
 
 After-which it should show annotated thumbs for cue sheets (don't forget `chmod +x`)
 
-Sample images are provided, which are taken from Faenza icon set. I couldn't find a way to use stock icons reliably from bash, so this provided images are needed in script folder. Can be easily replaced with different images under same name.
 
 ###Example:
 
@@ -38,3 +37,12 @@ After correcting referenced filepath, warning is shown about non-compliant cue s
 Now, this is valid cue sheet ( according the script ;) )
 
 ![screen-shot](http://i.imgur.com/uHwkd.png "Correct cue sheet")
+
+
+###Changes:
+
+bash-cue-validator-thumbs.sh
+0.2
+
+ - SVGs are removed and instead single SVG is xz-ed and base64-ed inside script, then sed-ed to give particular color mask
+ - changed output to tranparent with greater quality
