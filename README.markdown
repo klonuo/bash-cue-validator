@@ -1,5 +1,3 @@
-***
-
 ###Usage:
 
 - **bash-cue-validator-test.sh**
@@ -22,6 +20,7 @@ $ gconftool-2 -s "/desktop/gnome/thumbnailers/application@x-cue/enable" -t boole
 ```
 
 After-which it should show annotated thumbs for cue sheets (don't forget `chmod +x`)
+Image is taken from Faenza icon set
 
 ***
 
